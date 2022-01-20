@@ -29,9 +29,9 @@ header {
 }
 
 header h1 {
-    font-family: var(--font2);
-    font-size: 3em;
     padding-top: 50px;
+    font-family: var(--font2);
+    font-size: 8.5vw;
 }
 
 header p {
@@ -53,6 +53,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 .normal {
@@ -66,12 +68,18 @@ section {
 }
 
 .imagem p {
-    width: 300px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.295);
-    padding-left: 10px;
-
+    padding: 5px;
 }
 
+#img01 {
+    background-image: url('../images/background001.jpg');
+}
+
+#img02 {
+    background-image: url('../images/background002.jpg');
+}
 
 footer {
     background-color: black;
